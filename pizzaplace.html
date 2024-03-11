@@ -1,0 +1,75 @@
+<!-- Tiedoston tyyppi ja kieli -->
+<!DOCTYPE html>
+<html lang="fi">
+
+<!-- Sivun nimi, merkistö, responsiivisuus ja tyyli -->
+<head>
+    <title>Pizza Place</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="pizzaplace.css">
+</head>
+
+<body>
+
+    <br><br>
+
+    <!-- Linkit -->
+    <div class="linkit">
+        <!-- Overlay nappi -->
+        <span onclick="openNav()">&#9776;</span>
+    </div>
+
+    <!-- Overlay -->
+    <div id="navigointi" class="overlay">
+        <!-- Sulkemis nappi -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- Overlay sisältö -->
+        <div class="overlaysisältö">
+            <a href="pizzaplace.html">Kotisivu</a>
+            <a href="menu.html">Menu</a>
+            <a href="yhteystiedot.html">Yhteystiedot</a>
+        </div>
+    </div>
+
+    <!-- Avaa/sulje linkit overlay -->
+    <script>
+        function openNav() {
+            document.getElementById("navigointi").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("navigointi").style.height = "0%";
+        }
+    </script>
+
+    <!-- Otsikko/logo -->
+    <h1>
+        <span class='Pizza'>Pizza<br></span>
+        Place
+    </h1>
+
+    <br><br><br>
+    
+    <!-- Menu nappi -->
+    <button onclick="window.location.href='menu.html';">Menu</button>
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <!-- Esittely -->
+    <p>
+        Tervetuloa Pizza Placeen! <br><br>
+        Me tarjoilemme ainutlaatuista Italialaistyylistä pizzaa, jossa on oma taikinamme ja laadukkaat raaka-aineet.<br>
+        Kodikas ja viihtyisä miljöö yhdistettynä pizzoihimme takaavat ikimuistoisen ruokaelämyksen.<br>
+        Pöytävarauksen voi tehdä puhelimitse ravintolan aukioloaikoina.<br>
+        Lisäksi tarjoamme mahdollisuuden noutaa herkulliset pizzamme mukaan, jotta voit nauttia niistä missä tahansa.<br>
+        Tule siis kokeilemaan herkullisia pizzoja ja viettämään aikaa ystävien ja perheen kanssa Pizza Placeen.<br><br>
+        Toivotamme sinut lämpimästi tervetulleeksi!
+    </p>
+
+    <br><br>
+
+</body>
+
+</html>

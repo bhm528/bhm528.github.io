@@ -1,0 +1,82 @@
+<!-- Tiedoston tyyppi ja kieli -->
+<!DOCTYPE html>
+<html lang="fi">
+
+<!-- Sivun nimi, merkistö, responsiivisuus ja tyyli -->
+<head>
+    <title>Menu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+
+    <br><br>
+
+    <!-- Linkit -->
+    <div class="linkit">
+        <!-- Overlay nappi -->
+        <span onclick="openNav()">&#9776;</span>
+    </div>
+
+    <!-- Overlay -->
+    <div id="navigointi" class="overlay">
+        <!-- Sulkemis nappi -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- Overlay sisältö -->
+        <div class="overlaysisältö">
+            <a href="pizzaplace.html">Kotisivu</a>
+            <a href="menu.html">Menu</a>
+            <a href="yhteystiedot.html">Yhteystiedot</a>
+        </div>
+    </div>
+
+    <!-- Avaa/sulje linkit overlay -->
+    <script>
+        function openNav() {
+            document.getElementById("navigointi").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("navigointi").style.height = "0%";
+        }
+    </script>
+
+    <br>
+
+    <!-- Otsikko -->
+    <h1>
+        Pizzat
+    </h1>
+
+    <!-- Pizzat listattuna -->
+    <p>
+        MARGHERITA - 15€
+        <br>Tomaattikastike, mozzarella, basilika, oliiviöljy<br><br>
+        FORMAGGI - 16€
+        <br>Tomaattikastike, mozzarella, sinihomejuusto, parmesaani, mustapippuri<br><br>
+        SALAME - 18€
+        <br>Tomaattikastike, mozzarella, nduja, pepperoni, basilika, oliiviöljy<br><br>
+        HAWAII - 17€
+        <br>Tomaattikastike, mozzarella, parmesaani, ananas, kinkku<br><br>
+        PROSCIUTTO - 17€
+        <br>Tomaattikastike, mozzarella, prosciutto, basilika, oliiviöljy<br>
+    </p>
+
+    <!-- Otsikko -->
+    <h1>
+        Juomat
+    </h1>
+
+    <!-- Juomat listattuna -->
+    <p>
+        Cola 0.33l - 4€<br><br>
+        Viini 16cl - 10€<br><br>
+        Olut 0.5l - 6€<br><br>
+        Vesi - 0€<br><br>
+    </p>
+
+</body>
+
+</html>
