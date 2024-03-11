@@ -94,15 +94,12 @@ button {
         font-size: 40px;
         padding-right: 100px;
     }
-
     h1 {
         font-size: 100px;
     }
-
     p {
         font-size: 30px;
     }
-
     .overlay .closebtn {
         right: 100px;
     }
@@ -114,15 +111,12 @@ button {
         font-size: 40px;
         padding-right: 200px;
     }
-
     h1 {
         font-size: 100px;
     }
-
     p {
         font-size: 30px;
     }
-
     .overlay .closebtn {
         right: 200px;
     }
