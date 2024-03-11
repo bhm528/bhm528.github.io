@@ -88,7 +88,7 @@ button {
     font-size: 50px;
 }
 
-/* Keskikokoisten näyttöjen asetukset */
+/* Keskikokoiset näytöt */
 @media only screen and (min-width: 600px) {
     .linkit {
         font-size: 40px;
@@ -108,7 +108,7 @@ button {
     }
 }
 
-/* Isojen näyttöjen asetukset */
+/* Isot näytöt */
 @media only screen and (min-width: 1250px) {
     .linkit {
         font-size: 40px;
