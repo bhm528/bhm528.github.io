@@ -104,4 +104,8 @@ iframe {
   .overlay .closebtn {
       right: 200px;
   }
+  iframe {
+    width: 30%;
+  }
+  
 }
