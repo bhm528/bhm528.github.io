@@ -1,5 +1,5 @@
 /* Tekstin keskitys, taustakuvan asetukset ja fontti */
-body {
+html, body {
     text-align: center;
     background-image: url(tausta.jpg);
     background-size: cover;
