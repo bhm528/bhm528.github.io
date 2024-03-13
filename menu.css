@@ -6,7 +6,6 @@ html, body {
     background-attachment: fixed;
     background-position: 50% 50%;
     font-family: Rockwell;
-    overscroll-behavior: none;
 }
 
 /* Otsikon fontti ja väri */

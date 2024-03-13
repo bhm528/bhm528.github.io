@@ -7,7 +7,6 @@ html, body {
     background-position: 50% 50%;
     font-family: Rockwell;
     padding-bottom: 25px;
-    overscroll-behavior: none;
 }
 
 /* Otsikon/logon fontti ja väri */
