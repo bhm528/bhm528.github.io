@@ -11,20 +11,14 @@
 </head>
 
 <body>
-
-    <br><br>
-
-    <!-- Linkit -->
+    <!-- Overlayn aukaisu nappi -->
     <div class="linkit">
-        <!-- Overlay nappi -->
         <span onclick="openNav()">&#9776;</span>
     </div>
 
-    <!-- Overlay -->
+    <!-- Overlay sulkemis nappi ja linkit -->
     <div id="navigointi" class="overlay">
-        <!-- Sulkemis nappi -->
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <!-- Overlay sisältö -->
         <div class="overlaysisältö">
             <a href="index.html">Kotisivu</a>
             <a href="menu.html">Menu</a>
@@ -37,13 +31,10 @@
         function openNav() {
             document.getElementById("navigointi").style.height = "100%";
         }
-
         function closeNav() {
             document.getElementById("navigointi").style.height = "0%";
         }
     </script>
-
-    <br>
 
     <!-- Otsikko -->
     <h1>
@@ -55,15 +46,14 @@
         Pizza Place<br>
         Fredikanterassi 7<br>
         00520 Helsinki<br><br>
-        Puh. 0440000000<br>
-        Sähköposti: sähköposti@sähköposti.fi<br><br>
+        Puh. 0500000000<br>
+        Sähköposti@sähköposti.fi<br><br>
         Aukioloaika:<br>
         Päivittäin 16:00 - 23:00
     </p>
 
     <!-- Google Maps -->
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.938597835624!2d24.92598267731799!3d60.19829904116314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920918e818c5cb%3A0x65f59e20c0d63a9c!2sFredikanterassi%207%2C%2000520%20Helsinki!5e0!3m2!1sfi!2sfi!4v1708011313709!5m2!1sfi!2sfi" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
 </body>
 
 </html>

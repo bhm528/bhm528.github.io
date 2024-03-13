@@ -1,17 +1,20 @@
 /* Tekstin keskitys, taustakuvan asetukset ja fontti */
 body {
     text-align: center;
-    background-image: url(taustakuva.jpg);
+    background-image: url(tausta.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 50%;
     font-family: Rockwell;
+    padding-bottom: 25px;
+    overscroll-behavior: none;
 }
 
 /* Otsikon/logon fontti ja väri */
 h1 {
     font-size: 70px;
     color: white;
+    padding-bottom: 60px;
 }
 
 /* Otsikon/logon toinen väri */
@@ -23,6 +26,7 @@ h1 {
 p {
     font-size: 20px;
     color: white;
+    padding-top: 70px;
 }
 
 /* Menu napin asetukset */
@@ -41,10 +45,11 @@ button {
     cursor: pointer;
 }
 
-/* Linkki napin sijainti, koko ja väri */
+/* Overlayn aukaisu napin sijainti, koko ja väri */
 .linkit {
     text-align: right;
-    font-size: 30px;
+    font-size: 40px;
+    padding-top: 30px;
     padding-right: 25px;
     cursor: pointer;
     color: white;
@@ -73,7 +78,7 @@ button {
 
 /* Overlayn sisällä olevien linkkien asetukset */
 .overlay a {
-    padding: 10px;
+    padding: 20px;
     text-decoration: none;
     font-size: 30px;
     color: black;
@@ -83,7 +88,7 @@ button {
 /* Overlayn sulkemis napin sijainti ja koko */
 .overlay .closebtn {
     position: absolute;
-    top: 35px;
+    top: 30px;
     right: 20px;
     font-size: 50px;
 }
@@ -91,7 +96,7 @@ button {
 /* Keskikokoiset näytöt */
 @media only screen and (min-width: 600px) {
     .linkit {
-        font-size: 40px;
+        font-size: 50px;
         padding-right: 100px;
     }
     h1 {
@@ -108,7 +113,7 @@ button {
 /* Isot näytöt */
 @media only screen and (min-width: 1250px) {
     .linkit {
-        font-size: 40px;
+        font-size: 50px;
         padding-right: 200px;
     }
     h1 {
